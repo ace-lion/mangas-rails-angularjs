@@ -1,0 +1,13 @@
+<div>
+	<table>
+		<tr>
+			<th>Manga</th>
+		</tr>
+		<tr ng-repeat = "manga in mangas">
+			<td> {{manga.nombre}} </td>
+			<td><a href="#/manga/{{manga.id}}/edit">Editar</a></td>
+			<td><a href="#/manga/{{manga.id}}">Mostrar</a></td>
+		</tr>
+	</table>
+
+</div>
